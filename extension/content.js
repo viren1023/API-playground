@@ -2,8 +2,11 @@
   const VERSION = '1.0.0'
   const PROTOCOL = 1
   const ALLOWED_ORIGINS = [
-    'http://localhost:5173', 'http://127.0.0.1:5173',
-    'http://localhost:4173', 'http://127.0.0.1:4173',
+    'http://localhost:5173',
+    'http://127.0.0.1:5173',
+    'http://localhost:4173',
+    'http://127.0.0.1:4173',
+    'https://rainbow-torrone-224dfc.netlify.app',
   ]
   if (!ALLOWED_ORIGINS.includes(location.origin)) return
 
