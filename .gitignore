@@ -1,0 +1,7 @@
+node_modules/
+web/dist/
+web/.vite/
+test-servers/express/node_modules/
+__pycache__/
+*.py[cod]
+.venv/
